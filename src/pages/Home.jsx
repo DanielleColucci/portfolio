@@ -1,4 +1,5 @@
 import '../styles/Home.css'
+import Headshot from '../assets/headshot.jpeg'
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
         <h1>Danielle Colucci</h1>
         <p>Research Biologist turned Software Engineer</p>
       </div>
-      <img src="./assets/headshot.jpeg" alt="profile" />
+      <img src={Headshot} alt="profile" />
     </>
   )
 }
