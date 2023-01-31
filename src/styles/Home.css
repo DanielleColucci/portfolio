@@ -1,5 +1,6 @@
 .home-main {
   width: 100%;
+  /* max-width: 1400px; */
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -8,6 +9,7 @@
 
 #content-container {
   width: 90%;
+  max-width: 1000px;
   display: flex;
   justify-content: center;
   gap: 2vmin;
@@ -17,9 +19,20 @@
   color: #00afb9;
 }
 
-p {
-  font-size: 16px;
+.header {
+  width: 60%
+}
+
+.header > p {
   width: 70%;
+}
+
+.header > p:first-child {
+  font-size: 24px;
+}
+
+.header > p:last-child {
+  font-size: 20px;
 }
 
 .header > h1 {
@@ -51,6 +64,14 @@ p {
     justify-content: flex-start;
   }
   
+  .header {
+    width: 100%;
+  }
+
+  .header > p {
+    width: 90%;
+  }
+  
   #headshot {
     height: 40vmin; 
     width: 40vmin;
@@ -63,10 +84,22 @@ p {
     .header > h1 {
       font-size: 36px;
     }
+
+    .header > p:first-child {
+      font-size: 20px;
+    }
+
+    .header > p:last-child {
+      font-size: 16px;
+    }
 }
 
 @media only screen and (max-height: 500px) {  
     .header > h1 {
       font-size: 36px;
+    }
+
+    .header > p {
+      font-size: 16px;
     }
 }
