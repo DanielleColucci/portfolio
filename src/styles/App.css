@@ -21,8 +21,14 @@ nav > a {
   padding: 8px 16px;
 }
 
-.active, nav > a:hover {
-  background-color: white;
+nav > a:hover {
+  background-color: rgb(255, 255, 255, 0.8);
+  color: #00afb9;
+  border-radius: 20px;
+}
+
+.active {
+  background-color: #ffffff;
   color: #00afb9;
   border-radius: 20px;
 }
