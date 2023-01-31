@@ -1,6 +1,6 @@
-import WordleClone from '../assets/wordle-clone.png'
-import HealthyHabits from '../assets/healthy-habits.png'
-import TicTacToe from '../assets/tic-tac-toe.png'
+import WordleClone from '../assets/wordle-clone.jpeg'
+import HealthyHabits from '../assets/healthy-habits.jpeg'
+import TicTacToe from '../assets/tic-tac-toe.jpeg'
 
 export const projects = [
   {

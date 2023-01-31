@@ -6,11 +6,12 @@ const ProjectPreview = (props) => {
 
   return (
     <>
-      <li>
-        <div className="project-preview-card">
-          <img src={project.image} alt={project.title} />
-          <h3>{project.title}</h3>
-          <Link to={`/projects/${hyphenateWords(project.title)}`}>Learn More</Link>
+      <li className="preview-card">
+        <img src={project.image} alt={project.title} />
+        <div className="card-overlay">
+          <Link title="click to learn more" to={`/projects/${hyphenateWords(project.title)}`}>
+            <p>{project.title}</p>
+          </Link>
         </div>
       </li>
     </>

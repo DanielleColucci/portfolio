@@ -1,4 +1,3 @@
-import '../styles/ProjectsList.css'
 import ProjectPreview from "./ProjectPreview"
 
 const ProjectsList = (props) => {
