@@ -1,22 +1,33 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;600&display=swap');
+
+#root {
+  background-color: #121f2b;
+  color: #ffffff;
+  font-family: 'Barlow', sans-serif;
+  overflow-y: hidden;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 32px;
+  gap: 8px;
   height: 64px;
-  background-color: black;
 }
 
 nav > a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
+  padding: 8px 16px;
 }
 
 .active, nav > a:hover {
-  text-decoration: underline;
-  padding-bottom: 4px;
+  background-color: white;
+  color: #00afb9;
+  border-radius: 20px;
+}
+
+nav > a:active {
+  background-color: #e1e1e1;
+  transform: scale(0.93)
 }
