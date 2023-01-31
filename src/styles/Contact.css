@@ -29,7 +29,12 @@
 }
 
 .contact-main > h3 > a {
+  text-decoration: none;
+}
+
+.contact-main > h3 > a:hover {
   text-decoration: underline #00afb9;
+  font-style: italic;
 }
 
 #socials-container {
