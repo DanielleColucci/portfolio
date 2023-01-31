@@ -8,6 +8,7 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume'
 import NavBar from './components/NavBar'
+import ProjectDetails from './pages/ProjectDetails'
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Resume" element={<Resume />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:projectDetails" element={<ProjectDetails />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
     </>
   );
