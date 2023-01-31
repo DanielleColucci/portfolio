@@ -36,11 +36,11 @@
 
 .preview-card {
   position: relative;
+  transition: 0.5s ease;
 }
 
 .preview-card:hover {
   transform: translateY(-8px);
-  transition: 0.5s ease;
 }
 
 .preview-card > img {
