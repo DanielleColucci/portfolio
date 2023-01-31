@@ -1,4 +1,4 @@
-main {
+.home-main {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -22,19 +22,19 @@ p {
   width: 70%;
 }
 
-h1 {
+.header > h1 {
   width: 100%;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #00afb9;
   line-height: 0.1em;
   font-size: 48px;
 }
 
-h1 span {
+.header > h1 > span {
   background: #121f2b;
   padding-right: 8px;
 }
 
-img {
+#headshot {
   height: 35vmin;
   width: 35vmin;
   box-shadow: 8px 8px #121f2b, 
