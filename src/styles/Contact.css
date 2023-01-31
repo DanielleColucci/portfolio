@@ -42,6 +42,7 @@
   flex-direction: column;
   text-align: left;
   align-items: center;
+  gap: 16px;
   width: 100%;
 }
 
@@ -63,15 +64,40 @@
   width: 70%;
   max-width: 800px;
   display: flex;
-  gap: 16px;
+  gap: 32px;
 }
 
 #socials-container > div > a > img {
-  height: 7vmin;
-  width: 7vmin;
+  height: 50px;
+  width: 50px;
   box-shadow: none;
+  transition: ease 0.5s;
+}
+
+#socials-container > div > a > img:hover {
+  transform: translateY(-8px);
 }
 
 #socials-container > div > a > img:active {
   transform: scale(0.93)
+}
+
+@media only screen and (max-width: 600px) {
+  
+  #socials-container > h2 {
+    font-size: 28px;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  
+  .contact-main > h1 {
+    font-size: 36px;
+  }
+
+  #socials-container > h2 {
+    font-size: 20px;
+  }
+  
 }
