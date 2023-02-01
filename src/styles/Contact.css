@@ -22,19 +22,41 @@
   padding-right: 8px;
 }
 
-.contact-main > h3 {
-  text-align: left;
+#email-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
   width: 70%;
   max-width: 800px;
 }
 
-.contact-main > h3 > a {
+#email-content > h3 {
+  text-align: left;
+  max-width: 800px;
+}
+
+#email-content > h3 > a {
   text-decoration: none;
 }
 
-.contact-main > h3 > a:hover {
+#email-content > h3 > a:hover {
   text-decoration: underline #00afb9;
   font-style: italic;
+}
+
+#email-content > a > img {
+  height: 54px;
+  width: 54px;
+  transition: ease 0.5s;
+}
+
+#email-content > a > img:hover {
+  transform: translateY(-8px);
+}
+
+#email-content > a > img:active {
+  transform: scale(0.93)
 }
 
 #socials-container {
