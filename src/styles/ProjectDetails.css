@@ -1,0 +1,80 @@
+#details-main {
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 125px;
+}
+
+#details-main > h1 {
+  width: 90%;
+  max-width: 1000px;
+  border-bottom: 1px solid #00afb9;
+  line-height: 0.1em;
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+#details-main > h1 > span {
+  background: #121f2b;
+  padding: 0 8px;
+}
+
+#details-main > p {
+  width: 70%; 
+  max-width: 700px;
+  line-height: 24px;
+  margin: 0;
+}
+
+#details-main > img {
+  width: 350px;
+  margin: 32px;
+}
+
+#links-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+#links-container > a {
+  color: #121f2b;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8px 16px;
+  border-radius: 25px;
+  box-shadow: 0px 1px 3px rgb(156, 156, 156);
+}
+
+#links-container > a:hover {
+  background-color: #ffffffcc;
+  text-decoration: underline;
+  box-shadow: 0px 1px rgb(156, 156, 156);
+}
+
+#links-container > a:active {
+  background-color: #e1e1e1;
+  transform: scale(0.93)
+}
+
+@media only screen and (max-width: 500px) {
+  #details-main > h1 {
+    font-size: 36px;
+    margin-bottom: 32px;
+    width: 100%
+  }
+
+  #details-main > img {
+    width: 300px;
+  }
+}

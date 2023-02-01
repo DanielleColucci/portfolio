@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     title: 'Healthy Habits',
-    description: 'A wellness-based MEN stack CRUF app where users can log recipes and exercises to encourage the development of healthy routines',
+    description: 'A wellness-based MEN stack CRUD app where users can log recipes and exercises to encourage the development of healthy routines',
     image: HealthyHabits,
     repositoryLink: 'https://github.com/DanielleColucci/wellness-app',
     deploymentLink: 'https://healthy-habits.fly.dev/'
