@@ -1,46 +1,49 @@
 import Profile from '../assets/profile.jpg'
+import '../styles/About.css'
 
 const About = () => {
   return (
     <main id="about-main">
-      <h1 id='about-header'><span>About Danielle</span></h1>
       <div className="content">
-        <img src={Profile} alt="profile" />
-        <p>I'm Danielle, a full stack software engineer from Boston, MA with a wide range of experience creating innovative applications. I am a fast learner with an analytical, detail-oriented, and logical side that is complemented by my creative and inventive side.</p>
+        <div id="info">
+          <h1 id='about-header'><span>About Danielle</span></h1>
+          <p>I'm Danielle, a full stack software engineer from Boston, MA with a wide range of experience creating innovative applications. I am a fast learner with an analytical, detail-oriented, and logical side that is complemented by my creative and inventive side.</p>
 
-        <p>I am a proud graduate of Providence College, where I received my Bachelor of Science in Mathematics and Biology, and General Assembly, where I received a Software Engineering Immersive Certificate. With a background as a biology researcher, I am excited to combine my new career in software development with my past experience in healthy and life sciences, as well as the resilience these fields instilled in me.</p>
+          <p>I am a proud graduate of Providence College, where I received my Bachelor of Science in Mathematics and Biology, and General Assembly, where I received a Software Engineering Immersive Certificate. With a background as a biology researcher, I am excited to combine my new career in software development with my past experience in healthy and life sciences, as well as the resilience these fields instilled in me.</p>
+        </div>
+        <img src={Profile} alt="profile" />
       </div>
 
-      <div>
-        <p>I'm also a...</p>
-        <div id="icon-grid">
-          <div>
-            <div>👩🏻‍🍳</div>
-            <div>Chef</div>
+      <div id='details'>
+        <h2><span>I'm also a...</span></h2>
+        <div id="icon-container">
+          <div className='icon-card'>
+            <div className='emoji'>👩🏻‍🍳</div>
+            <div className='label'>Chef</div>
           </div>
-          <div>
-            <div>🐈</div>
-            <div>Cat Lady</div>
+          <div className='icon-card'>
+            <div className='emoji'>🐈</div>
+            <div className='label'>Cat Lady</div>
           </div>
-          <div>
-            <div>🏃🏻‍♀️</div>
-            <div>Runner</div>
+          <div className='icon-card'>
+            <div className='emoji'>🏃🏻‍♀️</div>
+            <div className='label'>Runner</div>
           </div>
-          <div>
-            <div>☕️</div>
-            <div>Coffee Addict</div>
+          <div className='icon-card'>
+            <div className='emoji'>☕️</div>
+            <div className='label'>Coffee Addict</div>
           </div>
-          <div>
-            <div>♀️</div>
-            <div>Feminist</div>
+          <div className='icon-card'>
+            <div className='emoji'>♀️</div>
+            <div className='label'>Feminist</div>
           </div>
-          <div>
-            <div>📚</div>
-            <div>Book Lover</div>
+          <div className='icon-card'>
+            <div className='emoji'>📚</div>
+            <div className='label'>Book Lover</div>
           </div>
-          <div>
-            <div>🧶</div>
-            <div>Crocheter</div>
+          <div className='icon-card'>
+            <div className='emoji'>🧶</div>
+            <div className='label'>Crocheter</div>
           </div>
         </div>
       </div>
