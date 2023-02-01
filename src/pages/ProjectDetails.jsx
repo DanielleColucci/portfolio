@@ -12,8 +12,8 @@ const ProjectDetails = () => {
       <p><i>{currentProject.description}</i></p>
       <img src={currentProject.image} alt={currentProject.title} />
       <div id="links-container">
-        <a href={currentProject.repositoryLink} target="_blank" rel="noreferrer">GitHub</a>
-        <a href={currentProject.deploymentLink} target="_blank" rel="noreferrer">Launch Site</a>
+        <a title="view GitHub repo" href={currentProject.repositoryLink} target="_blank" rel="noreferrer">GitHub</a>
+        <a title="view deployed site" href={currentProject.deploymentLink} target="_blank" rel="noreferrer">Launch Site</a>
       </div>
     </main>
   )
