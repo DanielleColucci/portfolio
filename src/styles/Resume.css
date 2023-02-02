@@ -34,3 +34,19 @@
 #resume-main > p {
   font-size: 24px;
 }
+
+@media only screen and (max-width: 500px) {
+  #resume-header {
+    font-size: 36px;
+  }
+
+  #resume-icon {
+    height: 150px;
+  }
+
+  #resume-main > p {
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+  }
+}

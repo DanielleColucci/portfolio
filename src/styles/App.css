@@ -61,3 +61,13 @@ nav > a:active {
 .footer > a > img {
   height: 50px;
 }
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    margin: 16px;
+  }
+
+  .footer > a > img {
+    height: 40px;
+  }
+}
