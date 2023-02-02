@@ -154,3 +154,31 @@
     font-size: 16px;
   }
 }
+
+@media only screen and (max-width: 420px) {
+  .content > img {
+    margin-top: 0;
+    height: 300px;
+    width: 241px;
+  }
+  #about-header {
+    text-align: center;
+  }
+
+  .icon-card {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .icon-card:nth-of-type(5) > .emoji {
+    font-size: 20px;
+  }
+  
+  .emoji {
+    font-size: 16px;
+  }
+  
+  .label {
+    font-size: 12px;
+  }
+}
