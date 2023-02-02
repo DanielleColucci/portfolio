@@ -7,6 +7,10 @@
   overflow-y: hidden;
 }
 
+.prevent-scroll {
+  overflow-y: hidden;
+}
+
 nav {
   background-color: #121f2b9a;
   width: 100%;

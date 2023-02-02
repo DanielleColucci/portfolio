@@ -1,8 +1,15 @@
 import File from "../assets/file.png"
 import "../styles/Resume.css"
 import Footer from "../components/Footer"
+import { useEffect } from "react"
 
 const Resume = () => {
+  document.body.classList.add('prevent-scroll')
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
       <main id="resume-main">

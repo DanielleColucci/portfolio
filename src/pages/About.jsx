@@ -1,7 +1,14 @@
 import Profile from '../assets/profile.jpg'
 import '../styles/About.css'
+import { useEffect } from 'react'
 
 const About = () => {
+  document.body.classList.remove('prevent-scroll')
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <main id="about-main">
       <div className="content">

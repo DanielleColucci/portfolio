@@ -1,9 +1,16 @@
 import '../styles/ProjectDetails.css'
 import { findProject } from "../utilities/functions"
 import { useParams } from "react-router-dom"
+import { useEffect } from 'react'
 import Footer from '../components/Footer'
 
 const ProjectDetails = () => {
+  document.body.classList.remove('prevent-scroll')
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   const { projectDetails } = useParams()
   const currentProject = findProject(projectDetails)
 
