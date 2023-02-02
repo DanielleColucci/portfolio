@@ -67,14 +67,18 @@
   transform: scale(0.93)
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
   #details-main > h1 {
     font-size: 36px;
     margin-bottom: 32px;
-    width: 100%
+    /* width: 100% */
   }
 
   #details-main > img {
-    width: 300px;
+    width: 250px;
+  }
+
+  #links-container > a {
+    font-size: 16px;
   }
 }
