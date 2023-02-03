@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom"
 
-const NavBar = () => {
+const NavLinksList = ({ width }) => {
+  const fullNav = width > 768 ? true : false
   return (
-    <nav>
+    <nav className={fullNav ? 'full-nav' : 'dropdown-nav'}>
       <NavLink to='/'>HOME</NavLink>
       <NavLink to='/about'>ABOUT</NavLink>
       <NavLink to='/contact'>CONTACT</NavLink>
@@ -12,4 +13,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavLinksList

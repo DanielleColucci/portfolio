@@ -3,11 +3,12 @@ import "../styles/Resume.css"
 import Footer from "../components/Footer"
 import { useEffect } from "react"
 
-const Resume = () => {
+const Resume = ({ handlePageChange }) => {
   document.body.classList.add('prevent-scroll')
-
+  
   useEffect(() => {
     window.scrollTo(0, 0)
+    handlePageChange()
   }, [])
 
   return (

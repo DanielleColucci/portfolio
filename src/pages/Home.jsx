@@ -4,11 +4,12 @@ import Footer from '../components/Footer'
 
 import { useEffect } from 'react'
 
-const Home = () => {
+const Home = ({ handlePageChange }) => {
   document.body.classList.add('prevent-scroll')
-
+  
   useEffect(() => {
     window.scrollTo(0, 0)
+    handlePageChange()
   }, [])
 
   return (

@@ -4,11 +4,12 @@ import { useParams } from "react-router-dom"
 import { useEffect } from 'react'
 import Footer from '../components/Footer'
 
-const ProjectDetails = () => {
+const ProjectDetails = ({ handlePageChange }) => {
   document.body.classList.remove('prevent-scroll')
-
+  
   useEffect(() => {
     window.scrollTo(0, 0)
+    handlePageChange()
   }, [])
 
   const { projectDetails } = useParams()

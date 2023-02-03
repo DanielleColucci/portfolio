@@ -11,7 +11,7 @@
   overflow-y: hidden;
 }
 
-nav {
+.full-nav {
   background-color: #121f2b9a;
   width: 100%;
   position: fixed;
@@ -23,27 +23,96 @@ nav {
   height: 64px;
 }
 
-nav > a {
+.full-nav > a {
   text-decoration: none;
   color: #ffffff;
   padding: 8px 16px;
 }
 
-nav > a:hover {
+.full-nav > a:hover {
   background-color: rgb(255, 255, 255, 0.8);
   color: #00afb9;
   border-radius: 20px;
 }
 
-.active {
+.full-nav > .active {
   background-color: #ffffff;
   color: #00afb9;
   border-radius: 20px;
 }
 
-nav > a:active {
+.full-nav > a:active {
   background-color: #e1e1e1;
   transform: scale(0.93)
+}
+
+.menu-button {
+  color: #ffffff;
+  background: none;
+  border: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  margin: 10px 8px;
+  font-size: 32px;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.open {
+  font-size: 24px;
+  background-color: #ffffff;
+  color: #00afb9;
+  border-radius: 50%;
+}
+
+.menu-button:hover {
+  background-color: rgb(255, 255, 255, 0.8);
+  color: #00afb9;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dropdown-nav {
+  background-color: #334b61;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 64px 32px 24px 32px;
+  border: 1px solid #617b93;
+}
+
+.dropdown-nav > a {
+  font-size: 20px;
+  padding: 8px 16px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.dropdown-nav > .active {
+  background-color: #86a3be;
+  border-radius: 25px;
+}
+
+.dropdown-nav > a:hover {
+  background-color: #6a86a1;
+  border-radius: 25px;
+}
+
+.dropdown-nav > a:active {
+  transform: scale(0.93);
 }
 
 .footer {
@@ -69,5 +138,24 @@ nav > a:active {
 
   .footer > a > img {
     height: 40px;
+  }
+
+  .menu-button {
+    height: 36px;
+    width: 36px;
+    font-size: 24px;
+  }
+
+  .open {
+    font-size: 16px;
+  }
+  
+  .dropdown-nav {
+    padding-top: 56px;
+  }
+  
+  .dropdown-nav > a {
+    font-size: 16px;
+    padding: 4px 12px;
   }
 }

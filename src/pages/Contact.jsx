@@ -4,11 +4,12 @@ import GitHubLogo from '../assets/github.png'
 import Email from '../assets/email.png'
 import { useEffect } from 'react'
 
-const Contact = () => {
+const Contact = ({ handlePageChange }) => {
   document.body.classList.add('prevent-scroll')
-
+  
   useEffect(() => {
     window.scrollTo(0, 0)
+    handlePageChange()
   }, [])
 
   return (
