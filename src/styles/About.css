@@ -84,7 +84,7 @@
   padding: 32px;
 }
 
-.icon-card:nth-of-type(5) > .emoji {
+.icon-card:nth-of-type(6) > .emoji {
   font-size: 56px;
   color: pink;
 }
@@ -141,9 +141,8 @@
     width: 60px;
   }
   
-  .icon-card:nth-of-type(5) > .emoji {
+  .icon-card:nth-of-type(6) > .emoji {
     font-size: 32px;
-    color: pink;
   }
   
   .emoji {
@@ -170,7 +169,7 @@
     width: 30px;
   }
   
-  .icon-card:nth-of-type(5) > .emoji {
+  .icon-card:nth-of-type(6) > .emoji {
     font-size: 20px;
   }
   
