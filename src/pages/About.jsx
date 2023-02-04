@@ -18,7 +18,7 @@ const About = ({ handlePageChange }) => {
           <h1 id='about-header'><span>About Danielle</span></h1>
           <p>I'm Danielle, a full stack software engineer from Boston, MA with a wide range of experience creating innovative applications. I am a fast learner with an analytical, detail-oriented, and logical side that is complemented by my creative and inventive side.</p>
 
-          <p>I am a proud graduate of Providence College, where I received my Bachelor of Science in Mathematics and Biology, and General Assembly, where I received a Software Engineering Immersive Certificate. With a background as a biology researcher, I am excited to combine my new career in software development with my past experience in healthy and life sciences, as well as the resilience these fields instilled in me.</p>
+          <p>I am a proud graduate of Providence College, where I received my Bachelor of Science in Mathematics and Biology, and General Assembly, where I received a Software Engineering Immersive Certificate. With a background as a biology researcher, I am excited to combine my new career in software development with my past experience in health and life sciences, as well as the resilience these fields instilled in me.</p>
         </div>
         <img src={Profile} alt="profile" />
       </div>
@@ -41,6 +41,10 @@ const About = ({ handlePageChange }) => {
           <div className='icon-card'>
             <div className='emoji'>☕️</div>
             <div className='label'>Coffee Addict</div>
+          </div>
+          <div className='icon-card'>
+            <div className='emoji'>🎷</div>
+            <div className='label'>Musician</div>
           </div>
           <div className='icon-card'>
             <div className='emoji'>♀️</div>
