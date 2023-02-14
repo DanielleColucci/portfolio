@@ -12,6 +12,7 @@
 }
 
 .full-nav {
+  z-index: 2;
   background-color: #121f2b9a;
   width: 100%;
   position: fixed;
