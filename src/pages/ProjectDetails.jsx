@@ -24,7 +24,7 @@ const ProjectDetails = ({ handlePageChange }) => {
         <img src={currentProject.image} alt={currentProject.title} />
         <div id="links-container">
           <a title="view GitHub repo" href={currentProject.repositoryLink} target="_blank" rel="noreferrer">GitHub</a>
-          <a title="view deployed site" href={currentProject.deploymentLink} target="_blank" rel="noreferrer">Launch Site</a>
+          {currentProject.deploymentLink && <a title="view deployed site" href={currentProject.deploymentLink} target="_blank" rel="noreferrer">Launch Site</a>}
         </div>
       </main>
       <Footer />

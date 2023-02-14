@@ -2,6 +2,7 @@ import WordleClone from '../assets/wordle-clone.jpeg'
 import HealthyHabits from '../assets/healthy-habits.jpeg'
 import TicTacToe from '../assets/tic-tac-toe.jpeg'
 import RecDrop from '../assets/rec-drop.png'
+import Polymorphisms from '../assets/TCR-polymorphisms.jpeg'
 
 export const projects = [
   {
@@ -24,6 +25,12 @@ export const projects = [
     image: HealthyHabits,
     repositoryLink: 'https://github.com/DanielleColucci/wellness-app',
     deploymentLink: 'https://healthy-habits.fly.dev/'
+  },
+  {
+    title: 'TCR Polymorphisms',
+    description: 'A bioinformatic/immunology program that extracts key gene information from large data files and detects polymorphic changes between alleles',
+    image: Polymorphisms,
+    repositoryLink: 'https://github.com/DanielleColucci/V-gene-polymorphisms'
   },
   {
     title: 'Tic-Tac-Toe',
