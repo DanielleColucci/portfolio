@@ -1,6 +1,7 @@
 import WordleClone from '../assets/wordle-clone.jpeg'
 import HealthyHabits from '../assets/healthy-habits.jpeg'
 import TicTacToe from '../assets/tic-tac-toe.jpeg'
+import RecDrop from '../assets/rec-drop.png'
 
 export const projects = [
   {
@@ -9,6 +10,13 @@ export const projects = [
     image: WordleClone,
     repositoryLink: 'https://github.com/DanielleColucci/wordle-clone',
     deploymentLink: 'https://danielle-wordle-clone.netlify.app/'
+  },
+  {
+    title: 'Rec Drop',
+    description: 'A full stack web app where users can create movie, TV, music, and book recommendations and create personal playlists',
+    image: RecDrop,
+    repositoryLink: 'https://github.com/pat-kelly/rec-drop-front-end',
+    deploymentLink: 'https://rec-drop.netlify.app/'
   },
   {
     title: 'Healthy Habits',
