@@ -73,28 +73,30 @@
 }
 
 .icon-card {
-  height: 100px;
-  width: 100px;
+  box-sizing: border-box;
+  height: 120px;
+  width: 120px;
   border: 1px solid white;
   border-radius: 50%;
-  background-color: #16dee856;
+  background-color: #206872be;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
 }
 
 .icon-card:nth-of-type(6) > .emoji {
-  font-size: 56px;
   color: pink;
 }
 
 .emoji {
-  font-size: 48px;
+  font-size: 32px;
 }
 
 .label {
-  font-size: 24px;
+  font-size: 18px;
+  width: 90%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -137,16 +139,12 @@
   }
   
   .icon-card {
-    height: 60px;
-    width: 60px;
-  }
-  
-  .icon-card:nth-of-type(6) > .emoji {
-    font-size: 32px;
+    height: 100px;
+    width: 100px;
   }
   
   .emoji {
-    font-size: 24px;
+    font-size: 18px;
   }
   
   .label {
@@ -165,12 +163,8 @@
   }
 
   .icon-card {
-    height: 30px;
-    width: 30px;
-  }
-  
-  .icon-card:nth-of-type(6) > .emoji {
-    font-size: 20px;
+    height: 72px;
+    width: 72px;
   }
   
   .emoji {
