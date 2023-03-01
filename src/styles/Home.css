@@ -1,9 +1,11 @@
 .home-main {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
   margin-top: 150px;
+  padding-bottom: 150px;
 }
 
 #content-container {
@@ -73,6 +75,21 @@
   transform: scale(0.93);
 }
 
+.skills-container {
+  margin-top: 72px;
+  width: 65%;
+  max-width: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.badge {
+  height: 40px;
+  border-radius: 8px;
+}
+
 #headshot {
   height: 35vmin;
   width: 35vmin;
@@ -110,9 +127,16 @@
     height: 40vmin; 
     width: 40vmin;
     margin-left: 28%;
+    margin-top: 16px;
+  }
+
+  .skills-container {
     margin-top: 32px;
   }
   
+  .badge {
+    height: 32px;
+  }
 }
 
 @media only screen and (max-width: 400px) {  
