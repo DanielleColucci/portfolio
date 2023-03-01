@@ -5,10 +5,10 @@ const NavLinksList = ({ width }) => {
   return (
     <nav className={fullNav ? 'full-nav' : 'dropdown-nav'}>
       <NavLink to='/'>HOME</NavLink>
-      <NavLink to='/about'>ABOUT</NavLink>
-      <NavLink to='/contact'>CONTACT</NavLink>
       <NavLink to='/projects'>PROJECTS</NavLink>
+      <NavLink to='/about'>ABOUT</NavLink>
       <NavLink to='/resume'>RESUME</NavLink>
+      <NavLink to='/contact'>CONTACT</NavLink>
     </nav>
   )
 }
