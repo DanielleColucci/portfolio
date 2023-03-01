@@ -2,15 +2,16 @@ import WordleClone from '../assets/wordle-clone.jpeg'
 import HealthyHabits from '../assets/healthy-habits.jpeg'
 import TicTacToe from '../assets/tic-tac-toe.jpeg'
 import RecDrop from '../assets/rec-drop.png'
+import PatientSamples from '../assets/patient-sample.jpeg'
 import Polymorphisms from '../assets/TCR-polymorphisms.jpeg'
 
 export const projects = [
   {
-    title: 'Wordle Clone',
-    description: 'A Wordle-style app that allows users to select a difficulty, guess a secret word, and play as many rounds as desired',
-    image: WordleClone,
-    repositoryLink: 'https://github.com/DanielleColucci/wordle-clone',
-    deploymentLink: 'https://danielle-wordle-clone.netlify.app/'
+    title: 'Patient Sample Tracker',
+    description: 'A full stack web app inspired by patient derived model development in translational research, where authorized users can log patient sample data to track cell line and PDX model progress ',
+    image: PatientSamples,
+    repositoryLink: 'https://github.com/DanielleColucci/patient-sample-tracker-front-end',
+    deploymentLink: 'https://patient-sample-tracker.netlify.app/'
   },
   {
     title: 'Rec Drop',
@@ -25,6 +26,13 @@ export const projects = [
     image: HealthyHabits,
     repositoryLink: 'https://github.com/DanielleColucci/wellness-app',
     deploymentLink: 'https://healthy-habits.fly.dev/'
+  },
+  {
+    title: 'Wordle Clone',
+    description: 'A Wordle-style app that allows users to select a difficulty, guess a secret word, and play as many rounds as desired',
+    image: WordleClone,
+    repositoryLink: 'https://github.com/DanielleColucci/wordle-clone',
+    deploymentLink: 'https://danielle-wordle-clone.netlify.app/'
   },
   {
     title: 'TCR Polymorphisms',
