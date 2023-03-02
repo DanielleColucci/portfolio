@@ -121,11 +121,11 @@
   justify-content: flex-end;
   align-items: center;
   gap: 16px;
-  margin: 32px;
+  margin: 16px;
 }
 
 .footer > a > img {
-  height: 50px;
+  height: 40px;
 }
 
 @media only screen and (max-width: 500px) {
