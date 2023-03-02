@@ -41,14 +41,15 @@ function App() {
           width={width} 
         />
       }
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home handlePageChange={handlePageChange} />} />
         <Route path="/about" element={<About handlePageChange={handlePageChange} />} />
         <Route path="/contact" element={<Contact handlePageChange={handlePageChange} />} />
         <Route path="/projects" element={<Projects handlePageChange={handlePageChange} />} />
         <Route path="/projects/:projectDetails" element={<ProjectDetails handlePageChange={handlePageChange} />} />
         <Route path="/resume" element={<Resume handlePageChange={handlePageChange} />} />
-      </Routes>
+      </Routes> */}
+      <Home />
     </>
   );
 }
