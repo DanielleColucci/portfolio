@@ -1,7 +1,7 @@
 import { HashLink } from 'react-router-hash-link'
 
 const NavLinksList = ({ width }) => {
-  const fullNav = width > 768 ? true : false
+  const fullNav = width > 600 ? true : false
   return (
     <nav className={fullNav ? 'full-nav' : 'dropdown-nav'}>
       <HashLink to='/#home'>HOME</HashLink>

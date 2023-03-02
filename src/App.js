@@ -9,7 +9,7 @@ import SmallScreenNav from './components/Nav/SmallScreenNav'
 function App() {
   const [width, setWidth] = useState(window.innerWidth)
   const [isOpen, setIsOpen] = useState(false)
-  const breakpoint = 768
+  const breakpoint = 600
   
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
