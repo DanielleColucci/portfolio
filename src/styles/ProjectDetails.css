@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 125px;
+  margin-top: 80px;
 }
 
 #details-main > h1 {
@@ -14,7 +14,7 @@
   border-bottom: 1px solid #00afb9;
   line-height: 0.1em;
   font-size: 48px;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 
 #details-main > h1 > span {
@@ -31,7 +31,7 @@
 
 #details-main > img {
   width: 350px;
-  margin: 32px;
+  margin: 16px;
 }
 
 #links-container {
@@ -66,11 +66,25 @@
   transform: scale(0.93)
 }
 
+.skills-list {
+  margin-top: 32px;
+  width: 50%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.project-badge {
+  height: 32px;
+  border-radius: 8px;
+}
+
 @media only screen and (max-width: 550px) {
   #details-main > h1 {
     font-size: 36px;
     margin-bottom: 32px;
-    /* width: 100% */
   }
 
   #details-main > img {

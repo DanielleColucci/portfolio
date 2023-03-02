@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const Home = ({ handlePageChange }) => {
-  
+
   useEffect(() => {
     window.scrollTo(0, 0)
     handlePageChange()
@@ -32,6 +32,7 @@ const Home = ({ handlePageChange }) => {
           <img class='badge' src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt='javascript badge'/>
           <img class='badge' src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt='typescript badge'/>
           <img class='badge' src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt='react badge'/>
+          <img class='badge' src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt='python badge'/>
           <img class='badge' src="https://img.shields.io/badge/node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" alt='node.js badge'/>
           <img class='badge' src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt='express.js badge'/>
           <img class='badge' src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt='mongoDB badge'/>

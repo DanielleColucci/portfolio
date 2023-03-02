@@ -26,6 +26,11 @@ const ProjectDetails = ({ handlePageChange }) => {
           <a title="view GitHub repo" href={currentProject.repositoryLink} target="_blank" rel="noreferrer">GitHub</a>
           {currentProject.deploymentLink && <a title="view deployed site" href={currentProject.deploymentLink} target="_blank" rel="noreferrer">Launch Site</a>}
         </div>
+        <div className='skills-list'>
+          {currentProject.skills.map((skill, idx) => (
+            <img className='project-badge' key={idx} src={skill} alt="badge" />
+          ))}
+        </div>
       </main>
       <Footer />
     </>
