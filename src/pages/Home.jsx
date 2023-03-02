@@ -8,17 +8,9 @@ import Resume from './Resume'
 import Contact from './Contact'
 import About from './About'
 
-import { useEffect } from 'react'
 import { HashLink } from 'react-router-hash-link'
 
 const Home = () => {
-
-  // useEffect(() => {
-  //   window.scrollTo(0, 0)
-  //   // handlePageChange()
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [])
-
   return (
     <>
       <main id='home'>

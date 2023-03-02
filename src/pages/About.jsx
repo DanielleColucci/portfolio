@@ -1,16 +1,7 @@
 import Profile from '../assets/profile.jpg'
 import '../styles/About.css'
-import { useEffect } from 'react'
 
 const About = () => {
-  document.body.classList.remove('prevent-scroll')
-  
-  // useEffect(() => {
-  //   window.scrollTo(0, 0)
-    // handlePageChange()
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [])
-
   return (
     <main id='about'>
       <div className="content">

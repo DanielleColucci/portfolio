@@ -2,17 +2,8 @@ import '../styles/Contact.css'
 import LinkedInLogo from '../assets/linkedin.png'
 import GitHubLogo from '../assets/github.png'
 import Email from '../assets/email.png'
-import { useEffect } from 'react'
 
 const Contact = () => {
-  document.body.classList.add('prevent-scroll')
-  
-  // useEffect(() => {
-  //   window.scrollTo(0, 0)
-  //   // handlePageChange()
-  //   // eslint-disable-next-line react-hooks/exhaustive-deps
-  // }, [])
-
   return (
     <main id='contact'>
       <h1><span>Let's chat!</span></h1>
