@@ -1,6 +1,5 @@
 import File from "../assets/file.png"
 import "../styles/Resume.css"
-import Footer from "../components/Footer"
 
 const Resume = () => {
   return (
@@ -12,7 +11,6 @@ const Resume = () => {
         </a>
         <p>Click the icon to download my <span className="bg">resume</span>!</p>
       </main>
-      <Footer />
     </>
   )
 }
