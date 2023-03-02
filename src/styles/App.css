@@ -7,9 +7,21 @@
   overflow-y: hidden;
 }
 
+#nav-blur-bar {
+  z-index: 1;
+  min-width: 100%;
+  min-height: 64px;
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  -o-backdrop-filter: blur(5px);
+  -ms-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: #121f2bbb;
+  position: fixed;
+}
+
 .full-nav {
   z-index: 2;
-  background-color: #121f2b9a;
   width: 100%;
   position: fixed;
   display: flex;
