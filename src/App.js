@@ -5,6 +5,11 @@ import React, { useState, useEffect } from 'react'
 import Home from './pages/Home'
 import NavBar from './components/Nav/NavBar'
 import SmallScreenNav from './components/Nav/SmallScreenNav'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
+import Resume from './pages/Resume'
+import About from './pages/About'
+import Footer from './components/Footer'
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth)
@@ -32,6 +37,11 @@ function App() {
         />
       }
       <Home />
+      <Projects />
+      <Contact />
+      <Resume />
+      <About />
+      <Footer />
     </>
   );
 }

@@ -1,13 +1,5 @@
 import '../styles/Home.css'
 import Headshot from '../assets/headshot.jpeg'
-import Footer from '../components/Footer'
-
-// pages 
-import Projects from './Projects'
-import Resume from './Resume'
-import Contact from './Contact'
-import About from './About'
-
 import { HashLink } from 'react-router-hash-link'
 
 const Home = () => {
@@ -42,11 +34,6 @@ const Home = () => {
           <img className='badge' src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt='github badge'/>
         </div>
       </main>
-      <Projects />
-      <Contact />
-      <Resume />
-      <About />
-      <Footer/>
     </>
   )
 }
