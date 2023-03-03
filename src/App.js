@@ -25,6 +25,10 @@ function App() {
     setIsOpen(!isOpen)
   }
 
+  const handleNavigate = () => {
+    setIsOpen(false)
+  }
+
   return (
     <>
       {width < breakpoint 
@@ -32,6 +36,7 @@ function App() {
           width={width}
           isOpen={isOpen} 
           handleOpen={handleOpen}
+          handleNavigate={handleNavigate}
         /> 
         : <NavBar 
           width={width} 
