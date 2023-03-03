@@ -2,7 +2,10 @@ import NavLinksList from "./NavLinksList"
 
 const NavBar = ({ width }) => {
   return (
-    <NavLinksList width={width}/>
+    <>
+      <div id='nav-blur-bar'></div>
+      <NavLinksList width={width}/>
+    </>
   )
 }
 

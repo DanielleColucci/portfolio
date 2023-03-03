@@ -1,20 +1,19 @@
-#resume-main {
-  margin-top: 152px;
-  height: 100vh;
+#resume {
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  width: 45%;
+  max-width: 525px;
 }
 
 #resume-header {
-  width: 80%;
+  width: 100%;
   max-width: 1000px;
   border-bottom: 1px solid #00afb9;
   line-height: 0.1em;
   font-size: 48px;
   text-align: center;
-  margin: 0 0 32px 0;
 }
 
 #resume-header > span {
@@ -22,17 +21,30 @@
   padding: 0 8px;
 }
 
+#resume > h3 {
+  text-align: center;
+}
+
 #resume-icon {
-  height: 250px;
+  height: 150px;
   transition: ease 0.5s;
 }
 
 #resume-icon:hover {
-  transform: translateY(-16px);
+  transform: translateY(-8px);
 }
 
-#resume-main > p {
-  font-size: 24px;
+@media only screen and (max-width: 700px) {
+  #resume > h1 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #resume {
+    width: 80%;
+    padding-top: 40px;
+  }
 }
 
 @media only screen and (max-width: 500px) {

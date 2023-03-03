@@ -2,19 +2,10 @@ import '../styles/Contact.css'
 import LinkedInLogo from '../assets/linkedin.png'
 import GitHubLogo from '../assets/github.png'
 import Email from '../assets/email.png'
-import { useEffect } from 'react'
 
-const Contact = ({ handlePageChange }) => {
-  document.body.classList.add('prevent-scroll')
-  
-  useEffect(() => {
-    window.scrollTo(0, 0)
-    handlePageChange()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
-
+const Contact = () => {
   return (
-    <main className='contact-main'>
+    <main id='contact'>
       <h1><span>Let's chat!</span></h1>
       <div id='email-content'>
         <h3>Reach out with comments/questions or if you would like to collaborate. <br /> The best way to reach me is via <a href="mailto:ddcolucci99@gmail.com"><span className='bg'>email</span></a></h3>

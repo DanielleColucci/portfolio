@@ -1,15 +1,15 @@
-#about-main {
+#about {
   text-align: left;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 80px;
-  padding: 0 50px;
+  padding-top: 64px;
 }
 
 .content {
-  width: 100%;
-  max-width: 1000px;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   gap: 32px;
@@ -17,15 +17,17 @@
 
 .content > img {
   margin-top: 36px;
-  height: 400px;
+  min-height: 250px;
+  height: 40vmin;
 }
 
 #info {
-  width: 50%;
+  width: 70%;
 }
 
 #about-header {
-  width: 110%;
+  width: 100%;
+  text-align: center;
   border-bottom: 1px solid #00afb9;
   line-height: 0.1em;
   font-size: 48px;
@@ -38,17 +40,19 @@
 }
 
 #info > p {
+  width: 90%;
   font-size: 20px;
+  margin-left: 32px;
 }
 
 #details { 
-  width: 100%;
-  max-width: 1000px;
+  width: 80%;
+  max-width: 1200px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 48px 0 100px 0;
+  margin: 48px 0;
 }
 
 #details > h2 {
@@ -66,10 +70,11 @@
 
 #icon-container {
   width: 80%;
+  max-width: 800px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 32px;
+  gap: 24px;
 }
 
 .icon-card {
@@ -108,14 +113,16 @@
 
 @media only screen and (max-width: 720px) {
   .content {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
+  }
+
+  #info > p:nth-child(2) {
+    margin-bottom: 0;
   }
 
   .content > img {
     margin-top: 0;
-    height: 300px;
-    width: 241px;
   }
 
   #info {
@@ -127,11 +134,7 @@
   }
   
   #icon-container {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 32px;
+    gap: 16px;
   }
   
   #icon-container {
@@ -160,6 +163,10 @@
   }
   #about-header {
     text-align: center;
+  }
+
+  #icon-container {
+    gap: 8px;
   }
 
   .icon-card {

@@ -1,18 +1,9 @@
 import '../styles/ProjectDetails.css'
 import { findProject } from "../utilities/functions"
 import { useParams } from "react-router-dom"
-import { useEffect } from 'react'
 import Footer from '../components/Footer'
 
-const ProjectDetails = ({ handlePageChange }) => {
-  document.body.classList.remove('prevent-scroll')
-  
-  useEffect(() => {
-    window.scrollTo(0, 0)
-    handlePageChange()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
-
+const ProjectDetails = () => {
   const { projectDetails } = useParams()
   const currentProject = findProject(projectDetails)
 

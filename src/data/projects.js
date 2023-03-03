@@ -1,8 +1,8 @@
 import WordleClone from '../assets/wordle-clone.jpeg'
 import HealthyHabits from '../assets/healthy-habits.jpeg'
-import TicTacToe from '../assets/tic-tac-toe.jpeg'
-import RecDrop from '../assets/rec-drop.png'
-import PatientSamples from '../assets/patient-sample.jpeg'
+import TicTacToe from '../assets/tic-tac-toe.png'
+import RecDrop from '../assets/rec-drop.jpeg'
+import PatientSamples from '../assets/patient-samples.jpeg'
 import Polymorphisms from '../assets/TCR-polymorphisms.jpeg'
 
 const skillsObj = {

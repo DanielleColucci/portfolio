@@ -7,13 +7,21 @@
   overflow-y: hidden;
 }
 
-.prevent-scroll {
-  overflow-y: hidden;
+#nav-blur-bar {
+  z-index: 1;
+  min-width: 100%;
+  min-height: 64px;
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  -o-backdrop-filter: blur(5px);
+  -ms-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-color: #121f2bbb;
+  position: fixed;
 }
 
 .full-nav {
   z-index: 2;
-  background-color: #121f2b9a;
   width: 100%;
   position: fixed;
   display: flex;
@@ -116,6 +124,13 @@
   transform: scale(0.93);
 }
 
+.contact-resume-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 32px 64px 32px;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -125,11 +140,38 @@
   justify-content: flex-end;
   align-items: center;
   gap: 16px;
-  margin: 32px;
+  margin: 16px;
 }
 
 .footer > a > img {
-  height: 50px;
+  height: 40px;
+}
+
+#to-top-button {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0;
+}
+
+#to-top-button > a {
+  font-size: 24px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#to-top-button > a:hover {
+  color: #00afb9;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+#to-top-button > a:active {
+  transform: scale(0.93);
 }
 
 @media only screen and (max-width: 500px) {
@@ -158,5 +200,12 @@
   .dropdown-nav > a {
     font-size: 16px;
     padding: 4px 12px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .contact-resume-container {
+    flex-direction: column;
+    align-items: center;
   }
 }
