@@ -1,6 +1,3 @@
-import { hyphenateWords } from "../utilities/functions"
-import { Link } from "react-router-dom"
-
 const ProjectPreview = (props) => {
   const { project } = props
 
@@ -9,9 +6,17 @@ const ProjectPreview = (props) => {
       <li className="preview-card">
         <img src={project.image} alt={project.title} />
         <div className="card-overlay">
-          <Link title="click to learn more" to={`/projects/${hyphenateWords(project.title)}`}>
-            <p>{project.title}</p>
-          </Link>
+          <div className='project-title'>{project.title}</div>
+          <div className='project-links'>
+            <a title="view GitHub repo" href={project.repositoryLink} target="_blank" rel="noreferrer">GitHub</a>
+            {project.deploymentLink && <a title="view deployed site" href={project.deploymentLink} target="_blank" rel="noreferrer">Launch Site</a>}
+          </div>
+          <div className='project-description'>{project.description}</div>
+          <div className='skills-list'>
+            {project.skills.map((skill, idx) => (
+              <img className='project-badge' key={idx} src={skill} alt="badge" />
+            ))}
+          </div>
         </div>
       </li>
     </>
