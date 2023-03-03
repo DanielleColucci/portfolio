@@ -12,8 +12,8 @@ const Home = () => {
             <h1><span>Danielle Colucci</span></h1>
             <p>A Boston-based <span className='bg'>software engineer</span> with a passion for problem solving and an eye for detail</p>
             <div>
-              <HashLink to='/#projects'>View My Projects</HashLink>
-              <HashLink to='/#contact'>Contact Me</HashLink>
+              <HashLink smooth to='/#projects'>View My Projects</HashLink>
+              <HashLink smooth to='/#contact'>Contact Me</HashLink>
             </div>
           </div>
         <img id='headshot' src={Headshot} alt="profile" />
