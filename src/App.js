@@ -38,8 +38,10 @@ function App() {
       }
       <Home />
       <Projects />
-      <Contact />
-      <Resume />
+      <div className='contact-resume-container'>
+        <Contact />
+        <Resume />
+      </div>
       <About />
       <Footer />
     </>

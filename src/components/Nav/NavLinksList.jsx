@@ -6,9 +6,9 @@ const NavLinksList = ({ width }) => {
     <nav className={fullNav ? 'full-nav' : 'dropdown-nav'}>
       <HashLink to='/#home'>HOME</HashLink>
       <HashLink to='/#projects'>PROJECTS</HashLink>
-      <HashLink to='/#about'>ABOUT</HashLink>
-      <HashLink to='/#resume'>RESUME</HashLink>
       <HashLink to='/#contact'>CONTACT</HashLink>
+      <HashLink to='/#resume'>RESUME</HashLink>
+      <HashLink to='/#about'>ABOUT</HashLink>
     </nav>
   )
 }
