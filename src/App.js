@@ -45,7 +45,7 @@ function App() {
       </div>
       <About />
       <div id='to-top-button'>
-        <HashLink to='/#home'>BACK TO TOP</HashLink>
+        <HashLink smooth to='/#home'>BACK TO TOP</HashLink>
       </div>
       <Footer />
     </>
