@@ -9,7 +9,7 @@
 
 #content-container {
   width: 90%;
-  max-width: 1000px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   gap: 2vmin;
