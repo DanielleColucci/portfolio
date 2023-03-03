@@ -147,6 +147,33 @@
   height: 40px;
 }
 
+#to-top-button {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0;
+}
+
+#to-top-button > a {
+  font-size: 24px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#to-top-button > a:hover {
+  color: #00afb9;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+#to-top-button > a:active {
+  transform: scale(0.93);
+}
+
 @media only screen and (max-width: 500px) {
   .footer {
     margin: 16px;

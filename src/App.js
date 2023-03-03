@@ -1,5 +1,6 @@
 import './styles/App.css'
 import React, { useState, useEffect } from 'react'
+import { HashLink } from 'react-router-hash-link'
 
 // Components
 import Home from './pages/Home'
@@ -43,6 +44,9 @@ function App() {
         <Resume />
       </div>
       <About />
+      <div id='to-top-button'>
+        <HashLink to='/#home'>BACK TO TOP</HashLink>
+      </div>
       <Footer />
     </>
   );
