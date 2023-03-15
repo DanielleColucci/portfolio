@@ -62,6 +62,7 @@
 }
 
 .header > div > a {
+  box-sizing: border-box;
   font-size: 18px;
   text-decoration: none;
   padding: 8px 16px;
@@ -73,7 +74,9 @@
 
 .header > div > a:hover {
   color: #00afb9;
-  background-color: rgb(255, 255, 255, 0.8);
+  background-color: #ffffffcc;
+  border: none;
+  padding: 9px 17px;
 }
 
 .header > div > a:active {
