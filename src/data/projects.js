@@ -1,6 +1,5 @@
 import WordleClone from "../assets/wordle-clone.jpeg";
 import HealthyHabits from "../assets/healthy-habits.jpeg";
-import TicTacToe from "../assets/tic-tac-toe.png";
 import RecDrop from "../assets/rec-drop.jpeg";
 import PatientSamples from "../assets/patient-samples.jpeg";
 import Polymorphisms from "../assets/TCR-polymorphisms.jpeg";
@@ -175,12 +174,4 @@ export const projects = [
     repositoryLink: "https://github.com/DanielleColucci/V-gene-polymorphisms",
     skills: [skillsObj.python],
   },
-  // {
-  //   title: 'Tic-Tac-Toe',
-  //   description: 'A retro neon themed recreation of a childhood classic!',
-  //   image: TicTacToe,
-  //   repositoryLink: 'https://github.com/DanielleColucci/ttt-weekend',
-  //   deploymentLink: 'https://danielle-tic-tac-toe.netlify.app/',
-  //   skills: [skillsObj.javascript, skillsObj.html, skillsObj.css]
-  // },
 ];
