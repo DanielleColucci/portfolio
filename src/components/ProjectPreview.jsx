@@ -8,7 +8,7 @@ const ProjectPreview = (props) => {
         <div className="card-overlay">
           <div className='project-title'>{project.title}</div>
           <div className='project-links'>
-            <a title="view GitHub repo" href={project.repositoryLink} target="_blank" rel="noreferrer">GitHub</a>
+            {project.repositoryLink && <a title="view GitHub repo" href={project.repositoryLink} target="_blank" rel="noreferrer">GitHub</a>}
             {project.deploymentLink && <a title="view deployed site" href={project.deploymentLink} target="_blank" rel="noreferrer">Launch Site</a>}
           </div>
           <div className='project-description'>{project.description}</div>
