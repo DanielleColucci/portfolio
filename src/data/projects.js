@@ -35,13 +35,14 @@ const skillsObj = {
   dotnet:
     "https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white",
   mSql: "https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white",
+  nx: "https://img.shields.io/badge/nx-%234ea94b.svg?style=for-the-badge&logo=nx&logoColor=132f52&color=fff",
 };
 
 export const projects = [
   {
     title: "PA SHARE",
     description:
-      "GIS-based web application for PA State Historic Preservation Office where users can submit Federal Section 106 Reviews and locate historical properties and archaeological sites, and where internal SHPOs can approve projects, maintain records, and communicate with the agencies of the state.",
+      "GIS-based web application for PA's State Historic Preservation Office where users can submit Federal Section 106 Reviews, and where internal SHPOs can approve projects, maintain inventory records, and communicate with the agencies and municipalities of the state.",
     image: PaShare,
     deploymentLink: "https://share.phmc.pa.gov/pashare/landing",
     skills: [
@@ -55,14 +56,16 @@ export const projects = [
   {
     title: "NH EMMIT+",
     description:
-      "GIS-based web application for NH Division of Historical Resources where users can submit Federal Section 106 Reviews and locate historical properties and archaeological sites, and where internal SHPOs can approve projects, maintain records, and communicate with the agencies of the state. ",
+      "GIS-based web application for NH's Division of Historical Resources where users can submit Federal Section 106 Reviews, and where internal SHPOs can approve projects, maintain inventory records, and communicate with the agencies and municipalities of the state.",
     image: NHEmmit,
+    deploymentLink: "https://emmitprod.azurewebsites.net/emmit/landing",
     skills: [
       skillsObj.angular,
       skillsObj.typescript,
       skillsObj.csharp,
       skillsObj.dotnet,
       skillsObj.mSql,
+      skillsObj.nx,
     ],
   },
   {
@@ -82,7 +85,7 @@ export const projects = [
       "Online parcel viewer for Wayne County, NY where users can perform criteria and spatial searches, view parcel data, and visualize GIS data",
     image: WayneCounty,
     deploymentLink: "https://gis.co.wayne.ny.us/pv/search",
-    skills: [skillsObj.angular, skillsObj.typescript],
+    skills: [skillsObj.angular, skillsObj.typescript, skillsObj.nx],
   },
   {
     title: "Parcel Viewer",
@@ -90,7 +93,7 @@ export const projects = [
       "Online parcel viewer for Essex County, NY where users can perform criteria and spatial searches, view parcel data, and visualize GIS data",
     image: EssexCounty,
     deploymentLink: "https://essex-gis.co.essex.ny.us/",
-    skills: [skillsObj.angular, skillsObj.typescript],
+    skills: [skillsObj.angular, skillsObj.typescript, skillsObj.nx],
   },
   {
     title: "NYSDOT",
