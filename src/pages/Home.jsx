@@ -32,6 +32,7 @@ const Home = () => {
           <img className='badge' src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt='postgres badge'/>
           <img className='badge' src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt='mongoDB badge'/>
           <img className='badge' src="https://img.shields.io/badge/nx-%234ea94b.svg?style=for-the-badge&logo=nx&logoColor=132f52&color=fff" alt='NX badge'/>
+          <img className='badge' src="https://img.shields.io/badge/ArcGIS-%234ea94b.svg?style=for-the-badge&logo=arcgis&color=2C7AC3&logoColor=white" alt='ArcGIS badge'/>
           <img className='badge' src="https://img.shields.io/badge/html5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt='html badge'/>
           <img className='badge' src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt='css badge'/>
           <img className='badge' src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt='git badge'/>
