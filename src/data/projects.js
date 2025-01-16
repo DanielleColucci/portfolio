@@ -58,7 +58,7 @@ export const projects = [
     description:
       "GIS-based web application for NH's Division of Historical Resources where users can submit Federal Section 106 Reviews, and where internal SHPOs can approve projects, maintain inventory records, and communicate with the agencies and municipalities of the state.",
     image: NHEmmit,
-    deploymentLink: "https://emmitprod.azurewebsites.net/emmit/landing",
+    deploymentLink: "https://emmit.dncr.nh.gov/landing",
     skills: [
       skillsObj.angular,
       skillsObj.typescript,
